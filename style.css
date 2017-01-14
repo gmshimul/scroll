@@ -1,0 +1,17 @@
+#btn{
+	margin-top: 15px;
+}
+.service{
+	border: 2px solid black;
+	padding: 7px;
+	margin-top: 15px;
+	box-sizing: border-box;
+	
+}
+.service p{
+	text-align: justify;
+}
+.scroll{
+	max-height: 370px;
+	overflow: scroll;
+}
