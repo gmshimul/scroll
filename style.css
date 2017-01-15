@@ -3,15 +3,40 @@
 }
 .service{
 	border: 2px solid black;
-	padding: 7px;
+	padding: 12px;
 	margin-top: 15px;
 	box-sizing: border-box;
 	
 }
 .service p{
 	text-align: justify;
+	margin-right: 6px;
 }
 .scroll{
-	max-height: 370px;
-	overflow: scroll;
+		max-height: 350px;
+		overflow: scroll;
+	}
+@media (max-width: 767px) {
+	.scroll{
+		max-height: 300px;
+		overflow: scroll;
+	}
+ }
+/*@media (min-width: 768px) and (max-width: 991) {
+	.scroll{
+		max-height: 340px;
+		overflow: scroll;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199) {
+	.scroll{
+		max-height: 350px;
+		overflow: scroll;
+	}
+}*/
+@media (min-width: 1200px) {
+	.scroll{
+		max-height: 330px;
+		overflow: scroll;
+	}
 }
